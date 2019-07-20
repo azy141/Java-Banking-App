@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="home" method="get" class="myButton">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Register</legend>
+
+<!-- Text input-->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="textinput">User Name</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="username" type="text" placeholder="username" class="form-control input-md">
+
+  </div>
+</div>
+<!-- Text input-->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="textinput">Email Address</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="email" type="text" placeholder="email" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="passwordinput">Password</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="password" type="password" placeholder="placeholder" class="form-control input-md">
+  </div>
+</div>
+
+
+
+<!-- Text input-->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="textinput">First Name</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="firstName" type="text" placeholder="firstname" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="textinput">Last Name</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="lastName" type="text" placeholder="lastname" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="textinput">Address</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="address" type="text" placeholder="address" class="form-control input-md">
+
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Multiple Checkboxes -->
+<div class="myButton">
+  <label class="control-label" for="checkboxes">What type of account would you like to create?</label>
+  <div class="controls">
+    <label class="checkbox" for="checkboxes-1">
+    <input name="ifCurrentAccount" id="currentaccount" type="checkbox" value="1" checked = "checked">
+      <input id='currentaccountHidden' type='hidden' value='0' name='ifCurrentAccount'>
+      
+      Current Account
+    </label>
+    <label class="checkbox" for="checkboxes-1">
+      <input name="ifSavingsAccount" id="SavingsAccount" type="checkbox" value="1" checked = "checked">
+      <input id='SavingsAccountHidden' type='hidden' value='0' name='ifSavingsAccount'>
+      Savings Account
+    </label>
+        <label class="checkbox" for="checkboxes-1">
+      <input name="ifISAAccount" id="ISA" type="checkbox" value="1">
+      <input id='ISAHidden' type='hidden' value='0' name='ifISAAccount'>
+      ISA Account
+    </label>
+    
+  </div>
+</div>
+
+
+<!-- Button (Double) -->
+<div class="myButton">
+  <label class="col-md-4 control-label" for="button1id">Double Button</label>
+  <div class="col-md-8">
+	  <input type="submit" name="home" value="Home" />
+ 	  <input type="submit" name="Submit" value="Next" />
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+</body>
+</html>
